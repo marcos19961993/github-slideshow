@@ -1,0 +1,129 @@
+<!doctype>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+        
+
+        <style type="text/css" media="all">
+
+            .scoreboard {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #000000; /* Preto */
+
+  color: #ffffff; /* Branco */
+
+  padding: 20px;
+
+  font-family: Arial, sans-serif;
+
+  border: 2px solid #00FF00; /* Verde */
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.team {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin: 0 20px;
+
+}
+
+.logo {
+
+  width: 50px;
+
+  height: 50px;
+
+  margin-bottom: 10px;
+
+}
+
+.team-name,
+
+.goals {
+
+  font-size: 18px;
+
+}
+
+.timer {
+
+  font-size: 24px;
+
+}
+
+        </style>
+
+    </head>
+
+    
+
+<body width="200px">
+
+    
+
+    
+
+    <div class="scoreboard" width="200">
+
+  <div class="team">
+
+    <div class="logo">
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/1655px-Flamengo_braz_logo.svg.png" alt="" width="50" height="50">
+
+    </div>
+
+    <div class="team-name">Flamengo</div>
+
+    <div class="goals">0</div>
+
+  </div>
+
+  <div class="time">
+
+    <div class="timer">90:00</div>
+
+  </div>
+
+  <div class="team">
+
+    <div class="logo">
+
+      <img src="https://logodetimes.com/times/vasco-da-gama/logo-vasco-da-gama-4096.png" alt="" width="50" height="50">
+
+    </div>
+
+    <div class="team-name">Vasco</div>
+
+    <div class="goals">0</div>
+
+  </div>
+
+</div>
+
+    
+
+    
+
+</body>
+
+</html>
